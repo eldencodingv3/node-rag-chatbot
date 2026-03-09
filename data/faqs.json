@@ -1,0 +1,86 @@
+[
+  {
+    "id": "faq-1",
+    "question": "How do I reset my password?",
+    "answer": "Go to Settings > Security > Reset Password. You'll receive a reset link via email. The link expires in 24 hours.",
+    "category": "account"
+  },
+  {
+    "id": "faq-2",
+    "question": "What pricing plans does CloudSync offer?",
+    "answer": "CloudSync offers three plans: Free (5 GB storage), Pro ($9.99/month, 100 GB storage, priority support), and Enterprise ($29.99/month, 1 TB storage, dedicated account manager, SSO, and audit logs).",
+    "category": "pricing"
+  },
+  {
+    "id": "faq-3",
+    "question": "How do I upgrade or downgrade my plan?",
+    "answer": "Go to Settings > Billing > Change Plan. Select your desired plan and confirm. Upgrades take effect immediately with prorated charges. Downgrades take effect at the start of the next billing cycle.",
+    "category": "billing"
+  },
+  {
+    "id": "faq-4",
+    "question": "How do I cancel my subscription?",
+    "answer": "Go to Settings > Billing > Cancel Subscription. Your account will remain active until the end of your current billing period. You can reactivate at any time. All your data is retained for 30 days after cancellation.",
+    "category": "billing"
+  },
+  {
+    "id": "faq-5",
+    "question": "Is my data encrypted?",
+    "answer": "Yes, CloudSync uses AES-256 encryption for data at rest and TLS 1.3 for data in transit. We also support client-side encryption for Enterprise plan users, where only you hold the encryption keys.",
+    "category": "security"
+  },
+  {
+    "id": "faq-6",
+    "question": "How do I share files with other users?",
+    "answer": "Right-click any file or folder and select 'Share'. You can share via email, generate a public link, or set password-protected links. You can also set permissions: view-only, comment, or edit access.",
+    "category": "features"
+  },
+  {
+    "id": "faq-7",
+    "question": "Why is my sync not working?",
+    "answer": "First, check your internet connection. Then verify CloudSync is running in your system tray. Try restarting the app. If the issue persists, go to Settings > Advanced > Force Resync. If none of these steps work, contact support@cloudsync.example.com.",
+    "category": "technical"
+  },
+  {
+    "id": "faq-8",
+    "question": "What file types does CloudSync support?",
+    "answer": "CloudSync supports all file types with no restrictions. Individual file size limits depend on your plan: Free (250 MB per file), Pro (2 GB per file), Enterprise (10 GB per file).",
+    "category": "features"
+  },
+  {
+    "id": "faq-9",
+    "question": "How do I enable two-factor authentication?",
+    "answer": "Go to Settings > Security > Two-Factor Authentication and click Enable. You can use an authenticator app (Google Authenticator, Authy) or receive SMS codes. We recommend using an authenticator app for better security.",
+    "category": "security"
+  },
+  {
+    "id": "faq-10",
+    "question": "Can I recover deleted files?",
+    "answer": "Yes, deleted files are moved to the Trash and retained for 30 days (Free), 90 days (Pro), or 180 days (Enterprise). Go to Trash in the sidebar, find the file, and click Restore. After the retention period, files are permanently deleted.",
+    "category": "features"
+  },
+  {
+    "id": "faq-11",
+    "question": "How do I contact customer support?",
+    "answer": "You can reach us via email at support@cloudsync.example.com, through the in-app chat widget, or by calling 1-800-CLOUDSYNC (Mon-Fri, 9 AM - 6 PM EST). Pro and Enterprise users get priority support with faster response times.",
+    "category": "account"
+  },
+  {
+    "id": "faq-12",
+    "question": "Does CloudSync work offline?",
+    "answer": "Yes, you can mark files and folders as 'Available Offline' and they will be downloaded to your device. Any changes made offline will automatically sync when your internet connection is restored.",
+    "category": "features"
+  },
+  {
+    "id": "faq-13",
+    "question": "How do I add team members to my account?",
+    "answer": "Team management is available on Pro and Enterprise plans. Go to Settings > Team > Invite Members. Enter their email addresses and assign roles (Admin, Editor, Viewer). Each team member needs their own seat on your plan.",
+    "category": "account"
+  },
+  {
+    "id": "faq-14",
+    "question": "What happens if I exceed my storage limit?",
+    "answer": "You will receive email notifications at 80% and 95% usage. Once you reach 100%, you can still access and download existing files but cannot upload new ones until you free up space or upgrade your plan.",
+    "category": "billing"
+  }
+]
