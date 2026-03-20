@@ -63,6 +63,7 @@ body {
 /* Message bubbles */
 .message {
   display: flex;
+  flex-direction: column;
   max-width: 80%;
 }
 
@@ -92,6 +93,23 @@ body {
   background: #4a6cf7;
   color: #fff;
   border-bottom-right-radius: 4px;
+}
+
+/* Sources */
+.sources {
+  margin-top: 0.35rem;
+  padding: 0 0.25rem;
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.sources span {
+  display: inline-block;
+  background: #e5e7eb;
+  padding: 0.15rem 0.5rem;
+  border-radius: 10px;
+  margin-right: 0.35rem;
+  margin-top: 0.2rem;
 }
 
 /* Loading dots animation */
