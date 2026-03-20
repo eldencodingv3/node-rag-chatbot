@@ -1,5 +1,5 @@
 node_modules/
 .env
-.lancedb/
-lancedb_data/
+data/lancedb/
 *.log
+.DS_Store
